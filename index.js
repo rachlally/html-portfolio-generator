@@ -1,7 +1,6 @@
 //packages needed for HTLM application
 const fs = require("fs")
 const inquirer = require("inquirer")
-const html = require("./template")
 
 //questions to prompt the user
  inquirer
@@ -43,3 +42,7 @@ const html = require("./template")
         }
         console.log("Generating your portfolio page.")
       }
+
+    function init() {
+
+    }
